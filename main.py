@@ -40,7 +40,7 @@ crop_mapping = {
 if app_mode == "Home":
     st.header("FERTILIZER PREDICTION SYSTEM")
     image_path = "home.jpeg"
-    st.image(image_path, use_column_width=True)
+    st.image(image_path, use_container_width=True)  # Changed from use_column_width to use_container_width
     st.markdown("""
     # 🌿 Welcome to the Crop's Fertilizer Prediction System! 🔍
 
